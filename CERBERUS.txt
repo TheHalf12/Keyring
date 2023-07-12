@@ -1,0 +1,10 @@
+CREATE TABLE keyrings (
+    id SERIAL PRIMARY KEY,
+    "user" TEXT,
+    keys INTEGER[]
+);
+
+CREATE TABLE gates (
+    code SERIAL PRIMARY KEY,
+    name TEXT
+);
